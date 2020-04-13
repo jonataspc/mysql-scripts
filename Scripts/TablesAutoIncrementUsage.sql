@@ -1,3 +1,6 @@
+# Author: Jonatas Cruz
+# https://github.com/jonataspc/mysql-scripts
+
 DELIMITER $$
 
 DROP PROCEDURE IF EXISTS `TablesAutoIncrementUsage`$$
