@@ -3,5 +3,5 @@ MySQL Scripts for general use.
 
 ### Scripts:
 
-[TablesAutoIncrementUsage.sql](TablesAutoIncrementUsage.sql): Script to visualize table auto-increment usage (useful to identify tables about to hit the maximum auto-increment ID according to its datatype)
+[Scripts/TablesAutoIncrementUsage.sql](TablesAutoIncrementUsage.sql): Script to visualize table auto-increment usage (useful to identify tables about to hit the maximum auto-increment ID according to its datatype)
  
