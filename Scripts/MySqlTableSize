@@ -1,0 +1,8 @@
+SELECT CONCAT(table_schema,'.',table_name) table_name_MB,
+CONCAT(ROUND(data_length/(1024*1024),2)) _data_length_MB,
+CONCAT(ROUND(index_length/(1024*1024),2)) _idx_length_MB,
+CONCAT(ROUND(data_free/(1024*1024),2)) _data_free_MB,
+CONCAT(ROUND((data_length + index_length + data_free)/(1024*1024),2)) _total_size_MB
+FROM information_schema.TABLES
+WHERE TABLE_SCHEMA='mytable'
+ORDER BY data_length DESC 
