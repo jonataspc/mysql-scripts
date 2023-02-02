@@ -52,7 +52,7 @@ valor DECIMAL (10,2) NOT NULL
 
 
 LOAD DATA LOCAL 
-INFILE 'C:/Users/jonat/Downloads/Extrato-01-01-2023-a-31-01-2023.csv' /* informe aqui o path do arquivo CSV */
+INFILE 'C:/tmp/Extrato-01-01-2023-a-31-01-2023.csv' /* informe aqui o path do arquivo CSV */
     INTO TABLE lancamentos_inter 
     CHARACTER SET UTF8
     FIELDS TERMINATED BY ';' 
