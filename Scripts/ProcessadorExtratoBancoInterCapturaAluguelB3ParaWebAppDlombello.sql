@@ -26,7 +26,7 @@ Data Lançamento;Histórico;Descrição;Valor;Saldo
 5. Exporte o texto do resultado e cole no painel de importação de proventos do app web (https://app.dlombelloplanilhas.com/proventos)
 
 *** Informações importantes *** 
-1. Caso não haja o ticket no formato completo no extrato, o ativo ficará com o sufixo '!!!' indicando que deverá ser analisado manualmente
+1. Caso não haja o ticker no formato completo no extrato, o ativo ficará com o sufixo '!!!' indicando que deverá ser analisado manualmente
 
 *** Disclaimer *** 
 Use este script por sua conta e risco. Sempre confira os valores ao realizar os lançamentos. 
