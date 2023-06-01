@@ -68,7 +68,7 @@ SELECT
 
 # *
 # para formato tabular, descomentar linha acima e comentar linha abaixo
-GROUP_CONCAT(CONCAT_WS('\t', ativo, data_referencia, evento, total_bruto_ja_descontado_custo_corretora, Corretora, moeda, irrf) SEPARATOR '\n') AS result
+GROUP_CONCAT(CONCAT_WS('\t', ativo, data_referencia, evento, total_bruto_ja_descontado_custo_corretora, irrf, moeda, Corretora) SEPARATOR '\n') AS result
 
 FROM 
 (
